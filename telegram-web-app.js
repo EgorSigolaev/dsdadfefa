@@ -304,10 +304,10 @@
     webAppInitDataUnsafe = {};
   var themeParams = {},
     colorScheme = 'light';
-  var webAppVersion = '6.0';
+  var webAppVersion = '6.4';
   var webAppPlatform = 'Android';
 
-  console.log("START!!!")
+  console.log("START!!!");
 
   if (initParams.tgWebAppData && initParams.tgWebAppData.length) {
     webAppInitData = initParams.tgWebAppData;
