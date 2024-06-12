@@ -305,7 +305,7 @@
   var themeParams = {},
     colorScheme = 'light';
   var webAppVersion = '6.0';
-  var webAppPlatform = 'unknown';
+  var webAppPlatform = 'Android';
 
   if (initParams.tgWebAppData && initParams.tgWebAppData.length) {
     webAppInitData = initParams.tgWebAppData;
