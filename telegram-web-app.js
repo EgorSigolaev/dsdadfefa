@@ -308,6 +308,7 @@
   var webAppPlatform = 'Android';
 
   console.log("START!!!");
+  console.log("Data: " + initParams);
 
   if (initParams.tgWebAppData && initParams.tgWebAppData.length) {
     webAppInitData = initParams.tgWebAppData;
